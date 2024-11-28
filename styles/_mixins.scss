@@ -1,0 +1,17 @@
+@mixin center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin card($width: 100px, $height: 50px, $background-color: white, $color: black, $border-radius: 0px) {
+    width: $width;
+    height: $height;
+    background-color: $background-color;
+    border-radius: $border-radius;
+    color: $color;
+    padding: 10px;
+    box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+}
